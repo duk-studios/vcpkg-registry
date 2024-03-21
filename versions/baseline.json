@@ -1,5 +1,9 @@
 {
   "default": {
+    "duk": {
+      "baseline": "0.1.0",
+      "port-version": 0
+    },
     "grapphs": {
       "baseline": "0.1.5",
       "port-version": 0
