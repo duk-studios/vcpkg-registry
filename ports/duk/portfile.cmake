@@ -1,8 +1,8 @@
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
         URL https://github.com/duk-studios/duk
-        REF c727b0f3a5a00cdb1856e5d5165191bd4168c630
-        HEAD_REF develop
+        REF ${VERSION}
+        HEAD_REF master
 )
 
 vcpkg_cmake_configure(
