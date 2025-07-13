@@ -14,7 +14,7 @@
     },
     "steamworks-sdk": {
       "baseline": "1.62",
-      "port-version": 1
+      "port-version": 2
     }
   }
 }
