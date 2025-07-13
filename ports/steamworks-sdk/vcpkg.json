@@ -1,7 +1,7 @@
 {
   "name": "steamworks-sdk",
   "version": "1.62",
-  "port-version": 3,
+  "port-version": 4,
   "description": "Steamworks SDK",
   "homepage": "https://partner.steamgames.com/"
 }
