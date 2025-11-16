@@ -1,7 +1,7 @@
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
         URL https://github.com/duk-studios/duk
-        REF 80f9f304c07ec61eac51b6bb348520e605a01239
+        REF f67fbfb1848267eca80d35000d4ecc0c7ba3ed9c
         HEAD_REF master
 )
 
