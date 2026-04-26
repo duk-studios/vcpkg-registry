@@ -9,7 +9,7 @@ vcpkg_cmake_configure(
         SOURCE_PATH ${SOURCE_PATH}
         OPTIONS
         -DDUK_BUILD_SAMPLES=OFF
-        -DUK_BUILD_TESTS=OFF
+        -DDUK_BUILD_TESTS=OFF
 )
 vcpkg_cmake_install()
 
