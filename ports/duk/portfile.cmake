@@ -1,14 +1,15 @@
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
         URL https://github.com/duk-studios/duk
-        REF f67fbfb1848267eca80d35000d4ecc0c7ba3ed9c
+        REF 9a9eb94afc60b0aff013fc39e75671a5bf57b4e9
         HEAD_REF master
 )
 
 vcpkg_cmake_configure(
         SOURCE_PATH ${SOURCE_PATH}
         OPTIONS
-        -DDUK_BUILD_SAMPLE=OFF
+        -DDUK_BUILD_SAMPLES=OFF
+        -DUK_BUILD_TESTS=OFF
 )
 vcpkg_cmake_install()
 
